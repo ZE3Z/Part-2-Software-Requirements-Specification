@@ -1,1 +1,11 @@
 # Part-2-Software-Requirements-Specification
+
+This Software Requirements Specification (SRS) document lays the groundwork for the development of an intuitive boolean simulator designed to perform and accurately output results for simple boolean operations and truth tables. Targeted primarily at educational sectors encompassing EECS students, faculty, and individuals with a basic understanding of boolean logic this software aims to facilitate a deeper comprehension of boolean operations through interactive simulations.
+
+The core functionality revolves around parsing and evaluating boolean algebra expressions, handling variable assignments, and optionally generating comprehensive truth tables. Users can input expressions using symbolic or word-type operators, with support for literal boolean values to enhance usability. The system is designed to be case-insensitive, reducing input errors and improving user experience.
+
+In terms of technical scope, the software is developed in C/C++ and compiled for Linux environments, emphasizing compatibility with 64-bit operating systems due to memory constraints. While the current project scope prioritizes a terminal-based user interface, there's potential for expansion to a graphical user interface (GUI) depending on the project timeline and resources.
+
+The SRS document is organized into five main sections: Introduction, Overall Description, Specific Requirements, Classification of Functional Requirements, and Appendices. It details the software's interfaces, operational capabilities, user characteristics, and constraints. Additionally, it outlines specific requirements, including boolean algebra parsing/evaluation, variable assignment, truth table output, and error handling. Supplementary requirements address non-functional aspects such as case sensitivity and error messaging.
+
+This document serves as a comprehensive blueprint for designers and testers, ensuring the development of a system that meets the specified requirements and facilitates an engaging learning experience for users. Through detailed use-case specifications and functional requirement classifications, it provides a structured approach to software development, aiming for a product that is both functional and user-friendly.
